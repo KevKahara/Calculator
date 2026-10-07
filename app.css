@@ -1,5 +1,43 @@
+:root {
+    font-size: 62.5%;
+    background-color: #ccc;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.main-container {
+    border: 5px solid #000;
+    border-radius: 5%;
+    max-width: 440px;
+    margin-top: 10.5rem;
+    margin-bottom: 10.5rem;
+    margin-left: 42.5rem;
+    padding: 1.5rem;
+}
+
+.display {
+    border: 3px solid #000;
+    border-radius: 10%;
+    width: 400px;
+    padding: 4.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.button-container {
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1.5rem;
+}
+
+button {
+    border-radius: 10%;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
